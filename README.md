@@ -1,6 +1,3 @@
-Here’s a `README.md` for your React Vernam Cipher component:
-
-```markdown
 # Vernam Cipher React Component
 
 This is a React-based implementation of the Vernam Cipher, a symmetric key cipher used for encryption and decryption of text. The component allows users to input text, generate a key, encrypt the text using the Vernam Cipher, and decrypt it back using the same key.
