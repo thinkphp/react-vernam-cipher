@@ -1,0 +1,98 @@
+.card {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.card-header {
+  border-bottom: 1px solid #E5E7EB;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1F2937;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #4B5563;
+  margin-bottom: 0.25rem;
+}
+
+.input {
+  width: 97%;
+  padding: 0.75rem;
+  border: 1px solid #D1D5DB;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.button {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.button-generate {
+  background-color: #2563EB;
+  color: #fff;
+  border: none;
+}
+
+.button-generate:hover {
+  background-color: #1D4ED8;
+}
+
+.button-encrypt {
+  background-color: #16A34A;
+  color: #fff;
+  border: none;
+}
+
+.button-encrypt:hover {
+  background-color: #15803D;
+}
+
+.button-decrypt {
+  background-color: #6B21A8;
+  color: #fff;
+  border: none;
+}
+
+.button-decrypt:hover {
+  background-color: #4C1D95;
+}
+
+.output-container {
+  padding: 0.75rem;
+  background-color: #F3F4F6;
+  border-radius: 4px;
+  border: 1px solid #D1D5DB;
+  min-height: 5rem;
+  word-break: break-word;
+}
+
+.key-container {
+  padding: 0.75rem;
+  background-color: #F3F4F6;
+  border-radius: 4px;
+  border: 1px solid #D1D5DB;
+  min-height: 2rem;
+  word-break: break-word;
+}
