@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+Here’s a `README.md` for your React Vernam Cipher component:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```markdown
+# Vernam Cipher React Component
 
-## Available Scripts
+This is a React-based implementation of the Vernam Cipher, a symmetric key cipher used for encryption and decryption of text. The component allows users to input text, generate a key, encrypt the text using the Vernam Cipher, and decrypt it back using the same key.
 
-In the project directory, you can run:
+## Features
+- Input text to encrypt
+- Generate a random key for encryption
+- Encrypt text using the Vernam Cipher
+- Decrypt encrypted text using the same key
+- Displays the generated key in hexadecimal format
+- Responsive UI for better user interaction
 
-### `npm start`
+## Requirements
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React (v17 or higher)
+- Basic understanding of the Vernam Cipher
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/vernam-cipher-react.git
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navigate into the project directory:
+   ```bash
+   cd vernam-cipher-react
+   ```
 
-### `npm run build`
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Start the development server:
+   ```bash
+   npm start
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   Visit `http://localhost:3000` in your browser to see the component in action.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+1. **Enter Text**: Type the text you want to encrypt into the "Enter Text" field.
+2. **Generate Key**: Click the "Generate Key" button to generate a random key for encryption. The key is displayed in hexadecimal format.
+3. **Encrypt**: Click the "Encrypt" button to encrypt the entered text using the generated key. The encrypted output will be displayed in hexadecimal.
+4. **Decrypt**: If you have encrypted text, click the "Decrypt" button to decrypt the text back to its original form.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Example Workflow
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Enter a text, e.g., "Hello World".
+2. Click "Generate Key" to generate a random key.
+3. Click "Encrypt" to encrypt the text.
+4. Click "Decrypt" to decrypt the text back to "Hello World".
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Styling
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The component uses a simple, clean layout that you can customize in the accompanying `VernamCipher.css` file.
 
-## Learn More
+## Component Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- `inputText`: Holds the user input text to be encrypted.
+- `key`: Holds the random key used for encryption and decryption.
+- `keyDisplay`: Displays the key in hexadecimal format.
+- `outputText`: Displays the output text (either encrypted or decrypted).
+- `encryptedText`: Stores the encrypted text for decryption.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
 
-### Code Splitting
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Author
 
-### Analyzing the Bundle Size
+- **Adrian Statescu**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to open issues or submit pull requests for any improvements or suggestions.
+```
